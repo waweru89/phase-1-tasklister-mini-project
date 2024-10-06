@@ -7,11 +7,18 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(29, 2, 2), rgb(56, 1, 1));
 }
 
 button {
-  font-size: 7px;
+  font-size: 9px;
+  background-color: #185fe2;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: crosshair;
+
 }
 
 #main-content {
@@ -30,8 +37,15 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(5, 0, 0, 0.993);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+#submit{
+  background-color: aqua;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: crosshair;
 }
